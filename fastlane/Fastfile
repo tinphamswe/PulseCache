@@ -6,8 +6,7 @@ platform :ios do
     scan(
       clean: options[:clean] || false,
       only_testing: ["PulseCacheTests"],
-      output_directory: "fastlane/test_output/unit_tests",
-      result_bundle_path: "fastlane/test_output/unit_tests/PulseCache.xcresult"
+      output_directory: "fastlane/test_output/unit_tests"
     )
   end
 
@@ -16,8 +15,7 @@ platform :ios do
     scan(
       clean: options[:clean] || false,
       only_testing: ["PulseCacheUITests"],
-      output_directory: "fastlane/test_output/ui_tests",
-      result_bundle_path: "fastlane/test_output/ui_tests/PulseCache.xcresult"
+      output_directory: "fastlane/test_output/ui_tests"
     )
   end
 end

@@ -2,6 +2,7 @@ project "PulseCache.xcodeproj"
 scheme "PulseCache"
 sdk "iphonesimulator"
 devices [ENV.fetch("SCAN_DEVICE", "iPhone 16 Pro (18.6)")]
+ensure_devices_found true
 
 code_coverage true
 result_bundle true
