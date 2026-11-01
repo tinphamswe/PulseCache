@@ -1,0 +1,11 @@
+project "PulseCache.xcodeproj"
+scheme "PulseCache"
+sdk "iphonesimulator"
+devices [ENV.fetch("SCAN_DEVICE", "iPhone 16 Pro (18.6)")]
+
+code_coverage true
+result_bundle true
+output_types "html,junit"
+derived_data_path "Build"
+prelaunch_simulator true
+xcargs "-parallel-testing-enabled NO"

@@ -8,7 +8,12 @@
 import SwiftUI
 
 @main
-struct PulseCacheApp: App {
+@MainActor
+struct PulseCacheApp {}
+
+// MARK: - App
+
+extension PulseCacheApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

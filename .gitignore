@@ -1,0 +1,28 @@
+# macOS and Xcode local state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Build products
+Build/
+DerivedData/
+*.xcresult
+
+# Local Ruby dependencies
+.bundle/
+vendor/bundle/
+
+# Fastlane output
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Local planning notes
+/IMPLEMENTATION_PLAN.md

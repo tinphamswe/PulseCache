@@ -9,6 +9,8 @@ import XCTest
 
 final class PulseCacheUITests: XCTestCase {
 
+    // MARK: - XCTestCase
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -21,6 +23,8 @@ final class PulseCacheUITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+
+    // MARK: - UI Tests
 
     @MainActor
     func testExample() throws {

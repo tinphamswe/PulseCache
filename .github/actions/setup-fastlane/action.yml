@@ -1,0 +1,21 @@
+name: Setup Fastlane
+description: Select Xcode and install the locked Ruby dependencies.
+
+inputs:
+  xcode-version:
+    description: Xcode version used to build and test the app.
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Select Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: ${{ inputs.xcode-version }}
+
+    - name: Set up Ruby and install gems
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: .ruby-version
+        bundler-cache: true

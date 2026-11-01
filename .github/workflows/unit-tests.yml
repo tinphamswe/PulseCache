@@ -1,0 +1,40 @@
+name: Unit tests
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: unit-tests-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Swift Testing
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Setup Fastlane
+        uses: ./.github/actions/setup-fastlane
+        with:
+          xcode-version: "26.3"
+
+      - name: Run unit and integration tests with coverage
+        run: bundle exec fastlane ios unit_tests
+
+      - name: Upload test reports and coverage results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-results
+          path: fastlane/test_output/unit_tests/
+          retention-days: 14
