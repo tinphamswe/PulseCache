@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D254A0A73096E5ED00072EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D254A0913096E5EB00072EC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D254A0983096E5EB00072EC9;
+			remoteInfo = PulseCache;
+		};
+		D254A0B13096E5ED00072EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D254A0913096E5EB00072EC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D254A0983096E5EB00072EC9;
+			remoteInfo = PulseCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D254A0993096E5EB00072EC9 /* PulseCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D254A0A63096E5ED00072EC9 /* PulseCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D254A0B03096E5ED00072EC9 /* PulseCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D254A09B3096E5EB00072EC9 /* PulseCache */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PulseCache;
+			sourceTree = "<group>";
+		};
+		D254A0A93096E5ED00072EC9 /* PulseCacheTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PulseCacheTests;
+			sourceTree = "<group>";
+		};
+		D254A0B33096E5ED00072EC9 /* PulseCacheUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PulseCacheUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D254A0963096E5EB00072EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D254A0A33096E5ED00072EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D254A0AD3096E5ED00072EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D254A0903096E5EB00072EC9 = {
+			isa = PBXGroup;
+			children = (
+				D254A09B3096E5EB00072EC9 /* PulseCache */,
+				D254A0A93096E5ED00072EC9 /* PulseCacheTests */,
+				D254A0B33096E5ED00072EC9 /* PulseCacheUITests */,
+				D254A09A3096E5EB00072EC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D254A09A3096E5EB00072EC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D254A0993096E5EB00072EC9 /* PulseCache.app */,
+				D254A0A63096E5ED00072EC9 /* PulseCacheTests.xctest */,
+				D254A0B03096E5ED00072EC9 /* PulseCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D254A0983096E5EB00072EC9 /* PulseCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D254A0B83096E5ED00072EC9 /* Build configuration list for PBXNativeTarget "PulseCache" */;
+			buildPhases = (
+				D254A0953096E5EB00072EC9 /* Sources */,
+				D254A0963096E5EB00072EC9 /* Frameworks */,
+				D254A0973096E5EB00072EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D254A09B3096E5EB00072EC9 /* PulseCache */,
+			);
+			name = PulseCache;
+			productName = PulseCache;
+			productReference = D254A0993096E5EB00072EC9 /* PulseCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D254A0A53096E5ED00072EC9 /* PulseCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D254A0BB3096E5ED00072EC9 /* Build configuration list for PBXNativeTarget "PulseCacheTests" */;
+			buildPhases = (
+				D254A0A23096E5ED00072EC9 /* Sources */,
+				D254A0A33096E5ED00072EC9 /* Frameworks */,
+				D254A0A43096E5ED00072EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D254A0A83096E5ED00072EC9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D254A0A93096E5ED00072EC9 /* PulseCacheTests */,
+			);
+			name = PulseCacheTests;
+			productName = PulseCacheTests;
+			productReference = D254A0A63096E5ED00072EC9 /* PulseCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D254A0AF3096E5ED00072EC9 /* PulseCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D254A0BE3096E5ED00072EC9 /* Build configuration list for PBXNativeTarget "PulseCacheUITests" */;
+			buildPhases = (
+				D254A0AC3096E5ED00072EC9 /* Sources */,
+				D254A0AD3096E5ED00072EC9 /* Frameworks */,
+				D254A0AE3096E5ED00072EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D254A0B23096E5ED00072EC9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D254A0B33096E5ED00072EC9 /* PulseCacheUITests */,
+			);
+			name = PulseCacheUITests;
+			productName = PulseCacheUITests;
+			productReference = D254A0B03096E5ED00072EC9 /* PulseCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D254A0913096E5EB00072EC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					D254A0983096E5EB00072EC9 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					D254A0A53096E5ED00072EC9 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = D254A0983096E5EB00072EC9;
+					};
+					D254A0AF3096E5ED00072EC9 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = D254A0983096E5EB00072EC9;
+					};
+				};
+			};
+			buildConfigurationList = D254A0943096E5EB00072EC9 /* Build configuration list for PBXProject "PulseCache" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D254A0903096E5EB00072EC9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D254A09A3096E5EB00072EC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D254A0983096E5EB00072EC9 /* PulseCache */,
+				D254A0A53096E5ED00072EC9 /* PulseCacheTests */,
+				D254A0AF3096E5ED00072EC9 /* PulseCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D254A0973096E5EB00072EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D254A0A43096E5ED00072EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D254A0AE3096E5ED00072EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D254A0953096E5EB00072EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D254A0A23096E5ED00072EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D254A0AC3096E5ED00072EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D254A0A83096E5ED00072EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D254A0983096E5EB00072EC9 /* PulseCache */;
+			targetProxy = D254A0A73096E5ED00072EC9 /* PBXContainerItemProxy */;
+		};
+		D254A0B23096E5ED00072EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D254A0983096E5EB00072EC9 /* PulseCache */;
+			targetProxy = D254A0B13096E5ED00072EC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D254A0B63096E5ED00072EC9 /* Debug configuration for PBXProject "PulseCache" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D254A0B73096E5ED00072EC9 /* Release configuration for PBXProject "PulseCache" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D254A0B93096E5ED00072EC9 /* Debug configuration for PBXNativeTarget "PulseCache" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinpham.PulseCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D254A0BA3096E5ED00072EC9 /* Release configuration for PBXNativeTarget "PulseCache" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinpham.PulseCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D254A0BC3096E5ED00072EC9 /* Debug configuration for PBXNativeTarget "PulseCacheTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinpham.PulseCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseCache.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseCache";
+			};
+			name = Debug;
+		};
+		D254A0BD3096E5ED00072EC9 /* Release configuration for PBXNativeTarget "PulseCacheTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinpham.PulseCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseCache.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseCache";
+			};
+			name = Release;
+		};
+		D254A0BF3096E5ED00072EC9 /* Debug configuration for PBXNativeTarget "PulseCacheUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinpham.PulseCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulseCache;
+			};
+			name = Debug;
+		};
+		D254A0C03096E5ED00072EC9 /* Release configuration for PBXNativeTarget "PulseCacheUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinpham.PulseCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulseCache;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D254A0943096E5EB00072EC9 /* Build configuration list for PBXProject "PulseCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D254A0B63096E5ED00072EC9 /* Debug configuration for PBXProject "PulseCache" */,
+				D254A0B73096E5ED00072EC9 /* Release configuration for PBXProject "PulseCache" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D254A0B83096E5ED00072EC9 /* Build configuration list for PBXNativeTarget "PulseCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D254A0B93096E5ED00072EC9 /* Debug configuration for PBXNativeTarget "PulseCache" */,
+				D254A0BA3096E5ED00072EC9 /* Release configuration for PBXNativeTarget "PulseCache" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D254A0BB3096E5ED00072EC9 /* Build configuration list for PBXNativeTarget "PulseCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D254A0BC3096E5ED00072EC9 /* Debug configuration for PBXNativeTarget "PulseCacheTests" */,
+				D254A0BD3096E5ED00072EC9 /* Release configuration for PBXNativeTarget "PulseCacheTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D254A0BE3096E5ED00072EC9 /* Build configuration list for PBXNativeTarget "PulseCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D254A0BF3096E5ED00072EC9 /* Debug configuration for PBXNativeTarget "PulseCacheUITests" */,
+				D254A0C03096E5ED00072EC9 /* Release configuration for PBXNativeTarget "PulseCacheUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D254A0913096E5EB00072EC9 /* Project object */;
+	validationLevel = 1;
+}
