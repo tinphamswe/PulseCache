@@ -33,4 +33,3 @@ Set `DEVELOPER_DIR` if your command-line tools point to a different Xcode instal
 GitHub Actions runs the unit/integration and UI lanes separately on pushes and pull requests to `main`, with manual runs available. Both use macOS 15, Xcode 26.3, and the committed Gemfile.lock. Reports and `.xcresult` bundles, including coverage, are uploaded as artifacts for 14 days. Simulator tests require no signing credentials or repository secrets.
 
 Unit and integration tests use Swift Testing; UI tests use XCTest. Test doubles live in `PulseCacheTests/TestDoubles/`. Unit tests inject collaborators; integration suites explicitly verify their real composition. Tests use simulated network responses and in-memory storage.
-
